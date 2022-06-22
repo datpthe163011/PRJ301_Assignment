@@ -57,7 +57,6 @@ public class LoginController extends HttpServlet {
         {
             response.getWriter().println("hello ");
         }
-        else
         {
            response.getWriter().println("dang nhap duoc roi ");
         }
