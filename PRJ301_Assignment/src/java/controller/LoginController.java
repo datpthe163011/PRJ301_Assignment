@@ -58,7 +58,7 @@ public class LoginController extends HttpServlet {
             response.getWriter().println("hello ");
         }
         {
-           response.getWriter().println("dang nhap duoc roi ");
+           request.getRequestDispatcher("view/home.jsp").forward(request, response);
         }
     }
 
