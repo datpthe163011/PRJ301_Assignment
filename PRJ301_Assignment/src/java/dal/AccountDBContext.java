@@ -21,7 +21,7 @@ public class AccountDBContext extends DBContext {
     {
         try {
             String sql = "SELECT username,password,displayname FROM Account \n" +
-                    "WHERE username = ? AND password = ?";
+                    "WHERE username = ? AND password = ?"; 
             PreparedStatement stm = connection.prepareStatement(sql);
             stm.setString(1, username);
             stm.setString(2, password);
