@@ -14,7 +14,7 @@
     <body>
         <h1> WELLCOME STUDENT AND TEACHER</h1>
    
-         <a href="/login/login">Schedule </a>  <br/>
+         <a href=" MarkReport">View Mark </a>  <br/>
          <a href="/PRJ301_Assignment/login"> Attendance</a>  <br/>
          <br/>
         <div> Contact: 0378462919</div>
